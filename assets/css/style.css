@@ -8,6 +8,7 @@
 html{
     scroll-behavior: smooth;
     font-family: "Be Vietnam Pro", sans-serif;
+    background-color: rgba(238, 238, 238, 0.25);
 }
 
 
@@ -69,8 +70,12 @@ html{
     margin-top: 32px;
 }
 
-.mb-16{
-    margin-bottom: 16px;
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.dis-none{
+    display: none;
 }
 
 #header {
@@ -199,13 +204,16 @@ html{
 }
 
 #content .content-section{
-    width: 1200px;
+    width: 80%;
     max-width: 100%;
     padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: center;
 }
 
 #content .section-heading{
@@ -226,13 +234,15 @@ html{
 
 #content .iphone-img{
     width: 200px;
+    height: 200px;
     margin-top: 15px;
 }
 
-#content .ihover:hover{
+#content .iphone-img:hover{
     cursor: pointer;
-    opacity: 60%;
-    border: inherit;
+    border: 1px solid #ccc; 
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 #content .iphone-name:hover{
@@ -315,25 +325,20 @@ html{
     padding-left: 100px;
 }
 
-.read-more-btn{
+.btn{
     color: #fff;
     background-color: rgb(131, 76, 76);
     text-decoration: none;
+    width: 70%;
     padding: 11px 16px;
-    display: inline-block;
-    margin-top: 15px;
+    margin-top: 32px;
     border: none;
 }
 
-.read-more-btn:hover{
+.btn:hover{
     color: #000;
     background-color: #ccc;
     cursor: pointer;
-}
-
-
-.ipad-section{
-    background-color: rgb(24, 23, 23);
 }
 
 @keyframes modalFadeIn {
