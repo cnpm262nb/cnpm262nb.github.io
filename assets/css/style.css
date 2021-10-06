@@ -250,8 +250,22 @@ html{
     color: #000;
 }
 
+/* Begin:iPad */
+#content .ipad-name {
+    font-size: 20px;
+    color: rgb(216, 0, 0);
+}
 
+#content .ipad-img {
+    width: 200px;
+    margin-top: 15px;
+}
 
+#content .ipad-list {
+    padding-top: 32px;
+} 
+
+/* End:iPad */
 .modal{
     position: fixed;
     top: 0;
@@ -340,7 +354,6 @@ html{
     background-color: #ccc;
     cursor: pointer;
 }
-
 @keyframes modalFadeIn {
     from{
         opacity: 0;
