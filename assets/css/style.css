@@ -347,6 +347,7 @@ html{
     padding: 11px 16px;
     margin-top: 32px;
     border: none;
+    transition: all 0.3s;
 }
 
 .btn:hover{
